@@ -21,7 +21,6 @@ namespace _2010100009
             Console.WriteLine("Toplam ms:" + sure.TotalSeconds);
 
             Calculator().GetAwaiter().GetResult();
-
         }
         public static async Task Calculator()
         {
@@ -34,14 +33,6 @@ namespace _2010100009
             await Calc1;
             await Calc2;
             await Calc3;
-            /*
-            await Calculate1Async();
-            await Calculate2Async();
-            await Calculate3Async();
-            
-            var sure2=DateTime.Now-starTime2;
-            Console.WriteLine("Toplam ms:" + sure2.TotalSeconds);
-*/
         }
 
         public static void Print(Student student)
@@ -66,7 +57,6 @@ namespace _2010100009
             Console.WriteLine("Calculate 2 Start " + DateTime.Now.ToLongTimeString());
             Thread.Sleep(3000);
             Console.WriteLine("Calculate 2 End " + DateTime.Now.ToLongTimeString());
-
         }
 
         public static int Calculate3()
@@ -85,7 +75,6 @@ namespace _2010100009
 
             await Task.Delay(2000);
             Console.WriteLine("Calculate 1 End " + DateTime.Now.ToLongTimeString());
-
         }
 
         public static async Task Calculate2Async()
@@ -95,7 +84,6 @@ namespace _2010100009
             Console.WriteLine("Calculate 2 End " + DateTime.Now.ToLongTimeString());
         }
 
-
         public static async Task<int> Calculate3Async()
         {
             Console.WriteLine("Calculate 3 Start " + DateTime.Now.ToLongTimeString());
@@ -103,7 +91,5 @@ namespace _2010100009
             Console.WriteLine("Calculate 3 End " + DateTime.Now.ToLongTimeString());
             return 3;
         }
-
-
     }
 }
