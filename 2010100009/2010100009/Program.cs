@@ -8,57 +8,11 @@ namespace _2010100009
     {
         static void Main(string[] args)
         {
-            /*  Console.WriteLine("Hello Cet322 Class!");
-            Student.MiniumumGPA=2;
-            Course cet322=new Course();
-            cet322.Code="CET322";
-            cet322.Credit=4;
+            Student mertKayaguc = new Student("1", "Mahmut Mert Kayagüç", "Mahmut M.", "Kayagüç", "2010100009", "mertkayaguc@gmail.com");
+            mertKayaguc = mertKayaguc.Edit("1", "Mahmut Mert Kayagüç", "Mahmut M.", "Kayagüç", "2010100009", "mertkayaguc@hotmail.com");
 
-            Course cet301=new Course {
-                 Code = "CET301",
-                 Credit = 3
+            Print(mertKayaguc);            
 
-            };
-
-            Course math101=new Course("Math101",4);
-
-
-            StudentCourse huseyinCet301=new StudentCourse();
-            huseyinCet301.TakenCourse = cet322;
-            huseyinCet301.StudentGrade= Grade.BA;
-
-            Student huseyin=new Student {
-                 StudentNo ="9902131",
-                 FullName ="Hüseyin Şimşek"
-            };
-
-            huseyin.Courses.Add(huseyinCet301);
-            huseyin.Courses.Add(new StudentCourse(math101, Grade.AA));
-            huseyin.Courses.Add(new StudentCourse(cet322, Grade.F));
-
-           
-
-            GradStudent mehmet=new GradStudent {
-                 StudentNo ="2013121",
-                 FullName ="Mehmet Şimşek"
-            };
-
-           
-            mehmet.Courses.Add(new StudentCourse(math101, Grade.AA));
-            mehmet.Courses.Add(new StudentCourse(cet322, Grade.BA));
-
-      GradStudent gs2;
-        Student s2;
-
-        s2=mehmet;
-       
-        gs2=huseyin;
-        
-
-
-            Print(mehmet);
-            Print(huseyin);
-            */
             var starTime = DateTime.Now;
             Calculate1();
             Calculate2();
@@ -92,7 +46,12 @@ namespace _2010100009
 
         public static void Print(Student student)
         {
-            Console.WriteLine($" Adı :{student.FullName} GPA : {student.CalculateGPA()} Meznuniyet : {student.CanGradute()}");
+            Console.WriteLine($" Tam Adı :{student.FullName}");
+            Console.WriteLine($" Adı :{student.Name}");
+            Console.WriteLine($" Soyadı :{student.Surname}");
+            Console.WriteLine($" Email :{student.Email}");
+            Console.WriteLine($" Okul Numarası :{student.StudentId}");
+            Console.WriteLine($" GPA : {student.CalculateGPA()} Meznuniyet : {student.CanGradute()}");
         }
 
         public static void Calculate1()
