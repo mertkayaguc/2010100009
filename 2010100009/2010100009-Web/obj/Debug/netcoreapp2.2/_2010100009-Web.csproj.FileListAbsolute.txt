@@ -1,0 +1,11 @@
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.csprojAssemblyReference.cache
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.csproj.CoreCompileInputs.cache
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.RazorAssemblyInfo.cache
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.RazorAssemblyInfo.cs
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.AssemblyInfoInputs.cache
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.AssemblyInfo.cs
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.TagHelpers.input.cache
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.TagHelpers.output.cache
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.RazorCoreGenerate.cache
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.dll
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009-Web.pdb
