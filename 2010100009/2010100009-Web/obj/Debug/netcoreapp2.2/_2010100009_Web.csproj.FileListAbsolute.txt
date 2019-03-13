@@ -31,3 +31,11 @@ D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_20101000
 D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009_Web.dll
 D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009_Web.pdb
 D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009_Web.csproj.CopyComplete
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\_2010100009_Web.csprojAssemblyReference.cache
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\Razor\Views\Departments\Create.g.cshtml.cs
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\Razor\Views\Departments\Delete.g.cshtml.cs
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\Razor\Views\Departments\Details.g.cshtml.cs
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\Razor\Views\Departments\Edit.g.cshtml.cs
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\Razor\Views\Departments\Index.g.cshtml.cs
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\Razor\Views\Students\View2.g.cshtml.cs
+D:\DotNet\2010100009\2010100009\2010100009-Web\obj\Debug\netcoreapp2.2\Razor\Views\Departments\List.g.cshtml.cs

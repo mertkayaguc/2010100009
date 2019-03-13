@@ -1,0 +1,14 @@
+D:\DotNet\2010100009\2010100009-web\2010100009-web\bin\Debug\netcoreapp2.1\2010100009-web.deps.json
+D:\DotNet\2010100009\2010100009-web\2010100009-web\bin\Debug\netcoreapp2.1\2010100009-web.runtimeconfig.json
+D:\DotNet\2010100009\2010100009-web\2010100009-web\bin\Debug\netcoreapp2.1\2010100009-web.runtimeconfig.dev.json
+D:\DotNet\2010100009\2010100009-web\2010100009-web\bin\Debug\netcoreapp2.1\2010100009-web.dll
+D:\DotNet\2010100009\2010100009-web\2010100009-web\bin\Debug\netcoreapp2.1\2010100009-web.pdb
+D:\DotNet\2010100009\2010100009-web\2010100009-web\obj\Debug\netcoreapp2.1\2010100009-web.csprojAssemblyReference.cache
+D:\DotNet\2010100009\2010100009-web\2010100009-web\obj\Debug\netcoreapp2.1\2010100009-web.csproj.CoreCompileInputs.cache
+D:\DotNet\2010100009\2010100009-web\2010100009-web\obj\Debug\netcoreapp2.1\2010100009-web.RazorAssemblyInfo.cache
+D:\DotNet\2010100009\2010100009-web\2010100009-web\obj\Debug\netcoreapp2.1\2010100009-web.RazorAssemblyInfo.cs
+D:\DotNet\2010100009\2010100009-web\2010100009-web\obj\Debug\netcoreapp2.1\2010100009-web.AssemblyInfoInputs.cache
+D:\DotNet\2010100009\2010100009-web\2010100009-web\obj\Debug\netcoreapp2.1\2010100009-web.AssemblyInfo.cs
+D:\DotNet\2010100009\2010100009-web\2010100009-web\obj\Debug\netcoreapp2.1\2010100009-web.RazorTargetAssemblyInfo.cache
+D:\DotNet\2010100009\2010100009-web\2010100009-web\obj\Debug\netcoreapp2.1\2010100009-web.dll
+D:\DotNet\2010100009\2010100009-web\2010100009-web\obj\Debug\netcoreapp2.1\2010100009-web.pdb

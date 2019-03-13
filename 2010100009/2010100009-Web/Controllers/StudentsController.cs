@@ -38,16 +38,19 @@ namespace _2010100009_Web.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            StudentDepartmentViewModel mode = new StudentDepartmentViewModel();
+            mode.Departments = StudentDBContext.Departments.ToList();
+            return View(mode);
         }
 
         [HttpPost]
-        public IActionResult Create(Student student)
+        public IActionResult Create(StudentDepartmentViewModel studentDepartmentViewModel)
         {
-            StudentDBContext.Students.Add(student);
+            studentDepartmentViewModel.Student.Department = studentDepartmentViewModel.Department;
+            StudentDBContext.Students.Add(studentDepartmentViewModel.Student);
             StudentDBContext.SaveChanges();
 
-            if (student != null)
+            if (studentDepartmentViewModel.Student != null)
             {
                 var students = StudentDBContext.Students.ToList();
                 return View("Index", students);
@@ -61,10 +64,14 @@ namespace _2010100009_Web.Controllers
         public IActionResult Edit(int id)
         {
             Student student = StudentDBContext.Students.Where(stu => stu.Id == id).FirstOrDefault();
+            StudentDepartmentViewModel studentDepartmentViewModel = new StudentDepartmentViewModel();
+
+            studentDepartmentViewModel.Student = student;
+            studentDepartmentViewModel.Departments = StudentDBContext.Departments.ToList();
 
             if (student != null)
             {
-                return View(student);
+                return View(studentDepartmentViewModel);
             }
             else
             {
@@ -73,16 +80,16 @@ namespace _2010100009_Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(Student student)
+        public IActionResult Edit(StudentDepartmentViewModel studentDepartmentViewModel, int id)
         {
-            var currentUser = StudentDBContext.Students.Where(x => x.Id == student.Id).FirstOrDefault();
-            currentUser.Department = student.Department;
-            currentUser.Name = student.Name;
-            currentUser.StuID = student.StuID;
+            var currentUser = StudentDBContext.Students.Where(x => x.Id == id).FirstOrDefault();
+            currentUser.Department = studentDepartmentViewModel.Department;
+            currentUser.Name = studentDepartmentViewModel.Student.Name;
+            currentUser.StuID = studentDepartmentViewModel.Student.StuID;
 
             StudentDBContext.SaveChanges();
 
-            if (student != null)
+            if (studentDepartmentViewModel.Student != null)
             {
                 var students = StudentDBContext.Students.ToList();
                 return View("Index", students);
