@@ -12,7 +12,7 @@
 
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="View4">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Student.Name" class="control-label"></label>
@@ -32,6 +32,15 @@
                 <span asp-validation-for="Student.StuID" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label class="control-label"> Upload Photo </label>
+                <input type="file" id="FileUrl" name="photoFile" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Student.Description" class="control-label"></label>
+                <input asp-for="Student.Description" class="form-control" />
+                <span asp-validation-for="Student.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
@@ -44,4 +53,7 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        var editor = new Jodit('#Student_Description');
+    </script>
 }
