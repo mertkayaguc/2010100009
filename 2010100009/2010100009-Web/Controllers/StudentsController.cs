@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace _2010100009_Web.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class StudentsController : Controller
     {
         StudentDBContext StudentDBContext;

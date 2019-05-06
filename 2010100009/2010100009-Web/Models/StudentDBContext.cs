@@ -15,5 +15,6 @@ namespace _2010100009_Web.Models
         }
         public DbSet<Student> Students { get; set; }
         public DbSet<Department> Departments { get; set; }
+        public DbSet<WebUser> Users { get; set; }
     }
 }

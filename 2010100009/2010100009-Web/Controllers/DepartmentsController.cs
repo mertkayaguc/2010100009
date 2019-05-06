@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using _2010100009_Web.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace _2010100009_Web.Controllers
 {
+    [Authorize(Roles = "admin,department admin")]
     public class DepartmentsController : Controller
     {
         private readonly StudentDBContext _context;
